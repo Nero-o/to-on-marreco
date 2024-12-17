@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "to-on-marreco"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "to-on-marreco-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
