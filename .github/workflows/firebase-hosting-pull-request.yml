@@ -30,8 +30,7 @@ jobs:
 
       # Instalar dependências e construir o projeto
       - name: Install dependencies and build
-        run: |
-          yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       # Deploy para Firebase Hosting
       - uses: FirebaseExtended/action-hosting-deploy@v0
