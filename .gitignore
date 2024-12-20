@@ -16,6 +16,7 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+.dataconnect
 
 # Metro
 .metro-health-check*
@@ -24,6 +25,10 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+firebase-debug.*
+dataconnect-debug.*
+firestore-debug.*
+database-debug.*
 
 # macOS
 .DS_Store
