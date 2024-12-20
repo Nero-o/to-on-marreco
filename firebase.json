@@ -1,36 +1,21 @@
 {
   "emulators": {
-    "dataconnect": {
-      "dataDir": "dataconnect/.dataconnect/pgliteData",
-      "port": 9399
+    "firestore": {
+      "host": "localhost",
+      "port": 8081
     },
-    "apphosting": {
-      "port": 5002,
-      "rootDirectory": "./",
-      "startCommand": "yarn run dev"
+    "database": {
+      "port": 9001
     },
     "auth": {
       "port": 9099
-    },
-    "functions": {
-      "port": 5001
-    },
-    "database": {
-      "port": 9000
     },
     "hosting": {
       "port": 5000
     },
     "storage": {
       "port": 9199
-    },
-    "ui": {
-      "enabled": true
-    },
-    "singleProjectMode": true
-  },
-  "dataconnect": {
-    "source": "dataconnect"
+    }
   },
   "hosting": {
     "public": "public",
